@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar -->
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class=" js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
+    
+<link rel="canonical" href="https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar">
+<meta name="news_keywords" content="NASA, Earth, Space, Science, Satellite, Satellite Photo, DAAC, ,">
+<link rel="image_src" href="https://www.earthdata.nasa.gov/s3fs-public/2021-10/synthetic-aperture-radar.jpg?VersionId=2boFS.IvP8TTJMwmJqY7uE54_vzFLkK1">
+<meta name="rating" content="general">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="description" content="Background information on synthetic aperture radar, with details on wavelength and frequency, polarization, scattering mechanisms, and interferometry.">
+<meta name="abstract" content="Background information on synthetic aperture radar, with details on wavelength and frequency, polarization, scattering mechanisms, and interferometry.">
+<meta name="keywords" content=", NISAR L-Band SAR, RADARSAT, ASF DAAC, Synthetic Aperture Radar (SAR)">
+<meta name="dcterms.title" content="What is Synthetic Aperture Radar? | Earthdata">
+<meta name="dcterms.subject" content="Earth Data">
+<meta name="dcterms.description" content="Background information on synthetic aperture radar, with details on wavelength and frequency, polarization, scattering mechanisms, and interferometry.">
+<meta name="dcterms.publisher" content="Earth Science Data Systems, NASA">
+<meta name="dcterms.contributor" content="Earth Science Data Systems, NASA">
+<meta name="dcterms.date" content="2020-04-10">
+<meta name="dcterms.type" content="Backgrounder">
+<meta name="dcterms.format" content="text/html">
+<meta name="dcterms.identifier" content="/learn/backgrounders/what-is-sar">
+<meta property="og:site_name" content="Earthdata">
+<meta property="og:type" content="Backgrounder">
+<meta property="og:url" content="https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar">
+<meta property="og:title" content="What is Synthetic Aperture Radar? | Earthdata">
+<meta property="og:description" content="Background information on synthetic aperture radar, with details on wavelength and frequency, polarization, scattering mechanisms, and interferometry.">
+<meta property="og:image" content="https://www.earthdata.nasa.gov/s3fs-public/2021-10/synthetic-aperture-radar.jpg?VersionId=2boFS.IvP8TTJMwmJqY7uE54_vzFLkK1">
+<meta property="og:image:alt" content="synthetic aperture radar">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@NASAEarthData">
+<meta name="twitter:description" content="Background information on synthetic aperture radar, with details on wavelength and frequency, polarization, scattering mechanisms, and interferometry.">
+<meta name="twitter:title" content="What is Synthetic Aperture Radar? | Earthdata">
+<meta name="twitter:url" content="https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar">
+<meta name="twitter:image:alt" content="synthetic aperture radar">
+<meta name="twitter:image" content="https://www.earthdata.nasa.gov/s3fs-public/2021-10/synthetic-aperture-radar.jpg?VersionId=2boFS.IvP8TTJMwmJqY7uE54_vzFLkK1">
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="https://www.earthdata.nasa.gov/sites/default/files/nasa-meatball.png" type="image/png">
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};a2a_config.icon_color = "#22b463";</script>
+
+    <title>What is Synthetic Aperture Radar? | Earthdata</title>
+    <link rel="stylesheet" media="all" href="./about_files/css_TW2WUQJ5hifV0nYppaYhQmBDo9k-YkBojgkLS-kZ44M.css">
+<link rel="stylesheet" media="all" href="./about_files/font-awesome.min.css">
+<link rel="stylesheet" media="all" href="./about_files/css_lPC-PGfgtBfmMxpAXLaK2ArRZseaVnacVUYW7um73Hw.css">
+<link rel="stylesheet" media="all" href="./about_files/css_O1xqJyUcqlIHj5lamlINh3kOdjGjxZzm9LoUTcVtbXo.css">
+<link rel="stylesheet" media="all" href="./about_files/all.css">
+<link rel="stylesheet" media="all" href="./about_files/css_Z0EWytWlrXjitsepirFcFc9l-ewB8O2kdxzYGsz4bDQ.css">
+<link rel="stylesheet" media="all" href="./about_files/css2">
+<link rel="stylesheet" media="all" href="./about_files/css_dW8MKPHWLPZui6ms4gBw7I9kyIWmqXhlvGM3oU8Sw3A.css">
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/2287","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":".node--type-job-opening .field--name-field-job-url","extCssExplicit":"","extAlert":true,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[".*\\earthdata.nasa.gov","firms.modaps.eosdis.nasa.gov","d10a3v3te7tlzl.cloudfront.net","d2cw1xlrxl8h8g.cloudfront.net","d371hv6zcxz9vm.cloudfront.net",".*\\cloudfront.net","nasaenterprise.webex.com"]}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":1}},"collapsiblock":{"active_pages":false,"slide_speed":200,"cookie_lifetime":null},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":false,"mobiledevicewidth":"480px"},"TBMegaMenu":{"TBElementsCounter":{"column":29},"theme":"earthdata"},"user":{"uid":0,"permissionsHash":"9f96380f838406ed8b8f43f34118025525e1eacaed9bcd1327470113de0d27cb"}}</script>
+<script src="./about_files/js_OjTLiimmGzO8fQT0OdX2VuzljtqLW1C6POMpz9y3EBU.js.download"></script>
+<script src="./about_files/js(3)" async=""></script>
+<script src="./about_files/2090.js.download" async=""></script>
+<script src="./about_files/Universal-Federated-Analytics-Min.js.download" id="_fed_an_ua_tag"></script><script type="text/javascript" src="./about_files/js(4)"></script>
+
+      <meta name="orgcode" content="613">
+      <meta name="rno" content="Kevin Murphy">
+      <meta name="content-owner" content="Kevin Ward">
+      <meta name="webmaster" content="Goran Halusa">
+      <meta name="description" content="The Earth Observing System Data and Information System
+       is a key core capability in NASA’s Earth Science Data Systems Program. It provides end-to-end
+       capabilities for managing NASA’s Earth science data from various sources—satellites, aircraft,
+       field measurements, and various other programs.">
+  <body class="layout-no-sidebars page-node-2287 path-node node--type-backgrounder scrolled scrollup">
+              <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+        <a href="https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    
+<div id="page-wrapper">
+  <div id="page">
+            <div id="main-wrapper" class="layout-main-wrapper clearfix">
+  <div class="container-fluid mb-5">
+    <section class="row region region-hero blue-bg" >
+      
+
+            
+
+<div id="block-contentfield" data-block-plugin-id="fieldblock:node" class="block block-fieldblock block-fieldblocknode px-0">
+
+  
+                
+        
+        
+        
+          <div class="content container pt-3 pt-md-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0 topic-overlay-summary">
+            <span class="topic-overlay-text">
+              <h1 class="mt-0 mb-3 fs-2">What is Synthetic Aperture Radar?</h1>
+            </span>
+          </div>
+        </div>
+      </div>
+              <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 px-0 topic-overlay-summary border-top border-white">
+              <div class="pt-3 pb-5" >
+                Background information on synthetic aperture radar, with details on wavelength and frequency, polarization, scattering mechanisms, and interferometry.
+
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+<div id="block-contentfield-2" data-block-plugin-id="fieldblock:node" class="block block-fieldblock block-fieldblocknode px-0">
+</div>
+
+    </section>
+  </div>          
+              <div id="main" class="container">
+                    <div class="row row-offcanvas row-offcanvas-left clearfix">
+              <main class="main-content col" id="content" role="main">
+                <section class="section">
+                  <a id="main-content" tabindex="-1"></a>
+                    <div id="block-earthdata-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
+      <div class="content">
+  <div data-history-node-id="2287" class="row"> 
+        <div class="col-sm-12 col-md-12 col-lg-9 mainContent">
+      
+      <div>
+<div class="paragraph paragraph--type--text paragraph--view-mode--default">
+    <div>
+        
+            <div class="clearfix text-formatted field field--name-field-text-content field--type-text-long field--label-hidden field__item"><h3>Introduction</h3>
+
+<figure role="group" class="caption caption-drupal-media align-right"><div data-size="medium">
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">
+<a href="https://www.earthdata.nasa.gov/s3fs-public/imported/SARticle_first-fig_redone-06.jpg?VersionId=QBJFb0_MD2aSlrRLNMv1RMCfMNhjEPjY" aria-controls="colorbox" aria-label="{&quot;title&quot;:&quot;Geometry of observations used to form the synthetic aperture for target P at alongtrack position x = 0.&quot;,&quot;alt&quot;:&quot;Geometry of observations used to form the synthetic aperture for target P at alongtrack position x = 0.&quot;}" role="button" title="" data-colorbox-gallery="gallery-image-41315-AaSdS8JA_Tg" class="colorbox cboxElement" data-cbox-img-attrs="{&quot;title&quot;:&quot;Geometry of observations used to form the synthetic aperture for target P at alongtrack position x = 0.&quot;,&quot;alt&quot;:&quot;Geometry of observations used to form the synthetic aperture for target P at alongtrack position x = 0.&quot;}"><img src="./about_files/SARticle_first-fig_redone-06.jpg" width="480" height="332" alt="Geometry of observations used to form the synthetic aperture for target P at alongtrack position x = 0." title="Geometry of observations used to form the synthetic aperture for target P at alongtrack position x = 0." loading="lazy" typeof="foaf:Image" class="image-style-medium-half-480px-"></a>
+</div>
+          </div>
+
+</div>
+<figcaption>Geometry of observations used to form the synthetic aperture for target P at along-track position x = 0. Credit: NASA SAR Handbook.</figcaption></figure><p>While most scientists using remote sensing are familiar with passive, optical images from the U.S. Geological Survey's Landsat, NASA's Moderate Resolution Imaging Spectroradiometer (MODIS), and the European Space Agency's Sentinel-2, another type of remote sensing data is making waves: Synthetic Aperture Radar, or SAR. SAR is a type of active data collection where a sensor produces its own energy and then records the amount of that energy reflected back after interacting with the Earth. While optical imagery is similar to interpreting a photograph, SAR data require a different way of thinking in that the signal is instead responsive to surface characteristics like structure and moisture.</p>
+
+<p>For more information on passive and active remote sensing, view <a href="https://www.earthdata.nasa.gov/learn/remote-sensing">What is Remote Sensing?</a></p>
+
+<h3>What's Synthetic about SAR?</h3>
+
+<figure role="group" class="caption caption-drupal-media align-right"><div data-size="medium">
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">
+<a href="https://www.earthdata.nasa.gov/s3fs-public/imported/SARticle_microwave_fig-05.jpg?VersionId=SxbmR88uKqoDi272eiu9ZwQ7YqVPR7Xe" aria-controls="colorbox" aria-label="{&quot;title&quot;:&quot;The electromagnetic spectrum with microwave bands inset.&quot;,&quot;alt&quot;:&quot;The electromagnetic spectrum with microwave bands inset.&quot;}" role="button" title="" data-colorbox-gallery="gallery-image-41316-AaSdS8JA_Tg" class="colorbox cboxElement" data-cbox-img-attrs="{&quot;title&quot;:&quot;The electromagnetic spectrum with microwave bands inset.&quot;,&quot;alt&quot;:&quot;The electromagnetic spectrum with microwave bands inset.&quot;}"><img src="./about_files/SARticle_microwave_fig-05.jpg" width="480" height="332" alt="The electromagnetic spectrum with microwave bands inset." title="The electromagnetic spectrum with microwave bands inset." loading="lazy" typeof="foaf:Image" class="image-style-medium-half-480px-"></a>
+</div>
+          </div>
+
+</div>
+<figcaption>The electromagnetic spectrum with microwave bands inset.</figcaption></figure><p style="clear:all;">The spatial resolution of radar data is directly related to the ratio of the sensor wavelength to the length of the sensor's antenna. For a given wavelength, the longer the antenna, the higher the spatial resolution. From a satellite in space operating at a wavelength of about 5 cm (C-band radar), in order to get a spatial resolution of 10 m, you would need a radar antenna about 4,250 m long. (That's over 47 football fields!)</p>
+
+<p style="clear:all;">An antenna of that size is not practical for a satellite sensor in space. Hence, scientists and engineers have come up with a clever workaround — the synthetic aperture. In this concept, a sequence of acquisitions from a shorter antenna are combined to simulate a much larger antenna, thus providing higher resolution data (view geometry figure to the right).</p>
+
+<h3>The Role of Frequency and Wavelength</h3>
+
+<p>Optical sensors such as Landsat's Operational Land Imager (OLI) and Sentinel-2's Multispectral Instrument (MSI) collect data in the visible, near-infrared, and short-wave infrared portions of the electromagnetic spectrum. Radar sensors utilize longer wavelengths at the centimeter to meter scale, which gives it special properties, such as the ability to see through clouds (view electromagnetic spectrum to the right). The different wavelengths of SAR are often referred to as bands, with letter designations such as X, C, L, and P. The table below notes the band with associated frequency, wavelength, and the application typical for that band.</p>
+
+<table class="table table-bordered table-striped"><tbody><tr><th>Band</th>
+			<th>Frequency</th>
+			<th>Wavelength</th>
+			<th>Typical Application</th>
+		</tr><tr><td style="width: 5%;">Ka</td>
+			<td style="width: 15%;">27–40 GHz</td>
+			<td style="width: 15%;">1.1–0.8 cm</td>
+			<td style="width: 65%;">Rarely used for SAR (airport surveillance)</td>
+		</tr><tr><td>K</td>
+			<td>18–27 GHz</td>
+			<td>1.7–1.1 cm</td>
+			<td>rarely used (H<sub>2</sub>O absorption)</td>
+		</tr><tr><td>Ku</td>
+			<td>12–18 GHz</td>
+			<td>2.4–1.7 cm</td>
+			<td>rarely used for SAR (satellite altimetry)</td>
+		</tr><tr><td>X</td>
+			<td>8–12 GHz</td>
+			<td>3.8–2.4 cm</td>
+			<td>High resolution SAR (urban monitoring,; ice and snow, little penetration into vegetation cover; fast coherence decay in vegetated areas)</td>
+		</tr><tr><td>C</td>
+			<td>4–8 GHz</td>
+			<td>7.5–3.8 cm</td>
+			<td>SAR Workhorse (global mapping; change detection; monitoring of areas with low to moderate penetration; higher coherence); ice, ocean maritime navigation</td>
+		</tr><tr><td>S</td>
+			<td>2–4 GHz</td>
+			<td>15–7.5 cm</td>
+			<td>Little but increasing use for SAR-based Earth observation; agriculture monitoring (NISAR will carry an S-band channel; expends C-band applications to higher vegetation density)</td>
+		</tr><tr><td>L</td>
+			<td>1–2 GHz</td>
+			<td>30–15 cm</td>
+			<td>Medium resolution SAR (geophysical monitoring; biomass and vegetation mapping; high penetration, InSAR)</td>
+		</tr><tr><td>P</td>
+			<td>0.3–1 GHz</td>
+			<td>100–30 cm</td>
+			<td>Biomass. First p-band spaceborne SAR will be launched ~2020; vegetation mapping and assessment. Experimental SAR.</td>
+		</tr></tbody></table><p>Wavelength is an important feature to consider when working with SAR, as it determines how the radar signal interacts with the surface and how far a signal can penetrate into a medium. For example, an X-band radar, which operates at a wavelength of about 3 cm, has very little capability to penetrate into broadleaf forest, and thus mostly interacts with leaves at the top of the tree canopy. An L-band signal, on the other hand, has a wavelength of about 23 cm, achieving greater penetration into a forest and allowing for more interaction between the radar signal and large branches and tree trunks. Wavelength doesn't just impact the penetration depth into forests, but also into other land cover types such as soil and ice.</p>
+
+<p>For example, scientists and archaeologists are using SAR data to help "uncover" lost cities and urban-type infrastructures hidden over time by dense vegetation or desert sands. For information on the use of SAR in space archaeology, view NASA Earth Observatory's <a href="https://earthobservatory.nasa.gov/features/SpaceArchaeology" target="_blank">Peering through the Sands of Time</a> and <a href="https://earthobservatory.nasa.gov/images/90847/secrets-beneath-the-sand" target="_blank">Secrets beneath the Sand</a>.</p>
+
+<h3>Polarization and Scattering Mechanisms</h3>
+
+<p>Radar can also collect signals in different polarizations, by controlling the analyzed polarization in both the transmit and receive paths. Polarization refers to the orientation of the plane in which the transmitted electromagnetic wave oscillates. While the orientation can occur at any angle, SAR sensors typically transmit linearly polarized. The horizontal polarization is indicated by the letter H, and the vertical polarization is indicated by V.</p>
+
+<p>The advantage of radar sensors is that signal polarization can be precisely controlled on both transmit and receive. Signals emitted in vertical (V) and received in horizontal (H) polarization would be indicated by a VH. Alternatively, a signal that was emitted in horizontal (H) and received in horizontal (H) would be indicated by HH, and so on. Examining the signal strength from these different polarizations carries information about the structure of the imaged surface, based on the following types of scattering: rough surface, volume, and double bounce (view figure below).</p>
+
+<ul><li>Rough surface scattering, such as that caused by bare soil or water, is most sensitive to VV scattering.</li>
+	<li>Volume scattering, for example, caused by the leaves and branches in a forest canopy, is most sensitive to cross-polarized data like VH or HV.</li>
+	<li>The last type of scattering, double bounce, is caused by buildings, tree trunks, or inundated vegetation and is most sensitive to an HH polarized signal.</li>
+</ul><p>&nbsp;</p>
+
+<figure role="group" class="caption caption-drupal-media align-center"><div data-size="full">
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">
+<a href="./about_files/SARPolarization.jpg" aria-controls="colorbox" aria-label="{&quot;title&quot;:&quot;Strong scattering in HH indicates a predominance of double-bounce scattering (e.g., stemmy vegetation, manmade structures), while strong VV relates to rough surface scattering (e.g., bare ground, water), and spatial variations in dual polarization indicate the distribution of volume scatterers (e.g., vegetation and high-penetration soil types such as sand or other dry porous soils).&quot;,&quot;alt&quot;:&quot;Strong scattering in HH indicates a predominance of double-bounce scattering (e.g., stemmy vegetation, manmade structures), while strong VV relates to rough surface scattering (e.g., bare ground, water), and spatial variations in dual polarization indicate the distribution of volume scatterers (e.g., vegetation and high-penetration soil types such as sand or other dry porous soils).&quot;}" role="button" title="" data-colorbox-gallery="gallery-image-41317-AaSdS8JA_Tg" class="colorbox cboxElement" data-cbox-img-attrs="{&quot;title&quot;:&quot;Strong scattering in HH indicates a predominance of double-bounce scattering (e.g., stemmy vegetation, manmade structures), while strong VV relates to rough surface scattering (e.g., bare ground, water), and spatial variations in dual polarization indicate the distribution of volume scatterers (e.g., vegetation and high-penetration soil types such as sand or other dry porous soils).&quot;,&quot;alt&quot;:&quot;Strong scattering in HH indicates a predominance of double-bounce scattering (e.g., stemmy vegetation, manmade structures), while strong VV relates to rough surface scattering (e.g., bare ground, water), and spatial variations in dual polarization indicate the distribution of volume scatterers (e.g., vegetation and high-penetration soil types such as sand or other dry porous soils).&quot;}"><img src="./about_files/SARPolarization.jpg" width="1000" height="310" alt="Strong scattering in HH indicates a predominance of double-bounce scattering (e.g., stemmy vegetation, manmade structures), while strong VV relates to rough surface scattering (e.g., bare ground, water), and spatial variations in dual polarization indicate the distribution of volume scatterers (e.g., vegetation and high-penetration soil types such as sand or other dry porous soils)." title="Strong scattering in HH indicates a predominance of double-bounce scattering (e.g., stemmy vegetation, manmade structures), while strong VV relates to rough surface scattering (e.g., bare ground, water), and spatial variations in dual polarization indicate the distribution of volume scatterers (e.g., vegetation and high-penetration soil types such as sand or other dry porous soils)." loading="lazy" typeof="foaf:Image"></a>
+</div>
+          </div>
+
+</div>
+<figcaption>Strong scattering in HH indicates a predominance of double-bounce scattering (e.g., stemmy vegetation, manmade structures), while strong VV relates to rough surface scattering (e.g., bare ground, water), and spatial variations in dual polarization indicate the distribution of volume scatterers (e.g., vegetation and high-penetration soil types such as sand or other dry porous soils). Credit: NASA SAR Handbook.</figcaption></figure><p>It is important to note that the amount of signal attributed to different scattering types may change as a function of wavelength, as wavelength changes the penetration depth of the signal. For example, a C-band signal penetrates only into the top layers of the canopy of a forest, and therefore will experience mostly roughness scattering mixed with a limited amount of volume scattering. However a L-band or P-band signal will have much deeper penetration and therefore experience strongly enhanced volume scattering as well as increasing amounts of double-bounce scattering caused by the tree trunk (view canopy penetration figure below).</p>
+
+<figure role="group" class="caption caption-drupal-media align-center"><div data-size="full">
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">
+<a href="./about_files/SARtree_figure2.jpg" aria-controls="colorbox" aria-label="{&quot;title&quot;:&quot;Sensitivity of SAR measurements to forest structure and penetration into the canopy at different wavelengths used for airborne or spaceborne remote sensing observations of the land surface.&quot;,&quot;alt&quot;:&quot;Sensitivity of SAR measurements to forest structure and penetration into the canopy at different wavelengths used for airborne or spaceborne remote sensing observations of the land surface.&quot;}" role="button" title="" data-colorbox-gallery="gallery-image-41318-AaSdS8JA_Tg" class="colorbox cboxElement" data-cbox-img-attrs="{&quot;title&quot;:&quot;Sensitivity of SAR measurements to forest structure and penetration into the canopy at different wavelengths used for airborne or spaceborne remote sensing observations of the land surface.&quot;,&quot;alt&quot;:&quot;Sensitivity of SAR measurements to forest structure and penetration into the canopy at different wavelengths used for airborne or spaceborne remote sensing observations of the land surface.&quot;}"><img src="./about_files/SARtree_figure2.jpg" width="1000" height="225" alt="Sensitivity of SAR measurements to forest structure and penetration into the canopy at different wavelengths used for airborne or spaceborne remote sensing observations of the land surface." title="Sensitivity of SAR measurements to forest structure and penetration into the canopy at different wavelengths used for airborne or spaceborne remote sensing observations of the land surface." loading="lazy" typeof="foaf:Image"></a>
+</div>
+          </div>
+
+</div>
+<figcaption>Sensitivity of SAR measurements to forest structure and penetration into the canopy at different wavelengths used for airborne or spaceborne remote sensing observations of the land surface. Credit: NASA SAR Handbook.</figcaption></figure><figure role="group" class="caption caption-drupal-media align-right"><div data-size="medium">
+  
+  
+  <div class="field field--name-field-media-image field--type-image field--label-visually_hidden">
+    <div class="field__label visually-hidden">Image</div>
+              <div class="field__item">
+<a href="https://www.earthdata.nasa.gov/s3fs-public/imported/interferogram_Oaxaca2018.jpg?VersionId=pDvr8y4VNJjEGuyrbDhXCbwaPzoJf7Cq" aria-controls="colorbox" aria-label="{&quot;title&quot;:&quot;Interferogram from Sentinel-1 SAR data acquired 2018/02/17 and 02/05 shows earthquake fault slip on a subduction thrust fault causing up to 40 cm of uplift of the ground surface. The motion has been contoured with 9 cm color contours, also known as fringes.&quot;,&quot;alt&quot;:&quot;Interferogram from Sentinel-1 SAR data acquired 2018/02/17 and 02/05 shows earthquake fault slip on a subduction thrust fault causing up to 40 cm of uplift of the ground surface. The motion has been contoured with 9 cm color contours, also known as fringes.&quot;}" role="button" title="" data-colorbox-gallery="gallery-image-41319-AaSdS8JA_Tg" class="colorbox cboxElement" data-cbox-img-attrs="{&quot;title&quot;:&quot;Interferogram from Sentinel-1 SAR data acquired 2018/02/17 and 02/05 shows earthquake fault slip on a subduction thrust fault causing up to 40 cm of uplift of the ground surface. The motion has been contoured with 9 cm color contours, also known as fringes.&quot;,&quot;alt&quot;:&quot;Interferogram from Sentinel-1 SAR data acquired 2018/02/17 and 02/05 shows earthquake fault slip on a subduction thrust fault causing up to 40 cm of uplift of the ground surface. The motion has been contoured with 9 cm color contours, also known as fringes.&quot;}"><img src="./about_files/interferogram_Oaxaca2018.jpg" width="480" height="355" alt="Interferogram from Sentinel-1 SAR data acquired 2018/02/17 and 02/05 shows earthquake fault slip on a subduction thrust fault causing up to 40 cm of uplift of the ground surface. The motion has been contoured with 9 cm color contours, also known as fringes." title="Interferogram from Sentinel-1 SAR data acquired 2018/02/17 and 02/05 shows earthquake fault slip on a subduction thrust fault causing up to 40 cm of uplift of the ground surface. The motion has been contoured with 9 cm color contours, also known as fringes." loading="lazy" typeof="foaf:Image" class="image-style-medium-half-480px-"></a>
+</div>
+          </div>
+
+</div>
+<figcaption>Interferogram from Sentinel-1 SAR data acquired 2018/02/17 and 02/05 shows earthquake fault slip on a subduction thrust fault causing up to 40 cm of uplift of the ground surface. The motion has been contoured with 9 cm color contours, also known as fringes. Credit: NASA Disasters Program.</figcaption></figure><h3>Interferometry (InSAR)</h3>
+
+<p>SAR data can also enable an analysis method called interferometry, or InSAR. InSAR uses the phase information recorded by the sensor to measure the distance from the sensor to the target. When at least two observations of the same target are made, the distance, with additional geometric information from the sensor, can be used to measure changes in land surface topography. These measurements are very accurate (up to the centimeter level!) and can be used to identify areas of deformation from events like volcanic eruptions and earthquakes (view interferogram to the right).</p>
+
+<h3 id="data">Data Availability</h3>
+
+<p>Only recently have consistent SAR datasets been widely available for free, starting with the launch and open data policy of the European Space Agency's (ESA) Sentinel-1a in 2014. Other sensors have historic data, imagery that is only available for certain areas, or policies that require the purchase of data. The table below lists the SAR sensors that have or are currently producing data, as well as the data parameters and where to access.</p>
+
+<table class="table table-bordered table-striped"><tbody><tr><th>Software</th>
+			<th>Developer</th>
+			<th>Analysis Type</th>
+			<th>Applicable Missions</th>
+		</tr><tr><td style="width: 20%;" valign="top">Sentinel Application Platform (SNAP) Sentinel 1 Toolbox&nbsp;<br>
+			(<a href="https://step.esa.int/main/download/snap-download/" target="_blank" class="ext" data-extlink="" rel="noreferrer">S1TBX<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>)</td>
+			<td style="width: 15%;" valign="top">European Space Agency</td>
+			<td style="width: 40%;" valign="top">A graphical user interface (GUI) used for both polarimetric and interferometric processing of SAR data. Start to finish processing includes algorithms for calibration, speckle filtering, coregistration, orthorectification, mosaicking, and data conversion.</td>
+			<td style="width: 25%;" valign="top">
+			<ul><li>Sentinel-1</li>
+				<li>ERS-1 and 2</li>
+				<li>ENVISAT</li>
+				<li>ALOS PALSAR</li>
+				<li>TerraSAR-X</li>
+				<li>COSMO-SkyMed</li>
+				<li>RADARSAT-2</li>
+			</ul></td>
+		</tr><tr><td valign="top"><a href="https://pypi.org/project/pyroSAR/" target="_blank" class="ext" data-extlink="" rel="noreferrer">pyroSAR<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></td>
+			<td valign="top">John Truckenbrodt, Friedrich-Schiller-University Jena / Deutsches Zentrum<br><br><br>
+			für Luft- und Raumfahrt German Aerospace Center</td>
+			<td valign="top">A Python framework for large-scale SAR satellite data processing that can access GAMMA and SNAP processing capabilities. Specializes in handling of acquisition metadata, formatting of preprocessed data for further analysis, and options for exporting data to Data Cube.</td>
+			<td valign="top">Sentinel and various past and present satellite missions</td>
+		</tr><tr><td valign="top">Generic Mapping Tools Synthetic Aperture Radar&nbsp;<br>
+			(<a href="https://topex.ucsd.edu/gmtsar/" target="_blank" class="ext" data-extlink="" rel="noreferrer">GMTSAR<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>)</td>
+			<td valign="top">ConocoPhillips, Scripps Institution of Oceanography, and San Diego State University</td>
+			<td valign="top">GMTSAR adds interferometric processing capabilities to Generic Mapping Tools (GMT), command line tools used to manipulate geographic data and create maps. GMTSAR includes two main processors: 1. an InSAR processor that can focus and align stacks of images, maps topography into phase, conducts phase unwrapping, and forms complex interferograms and 2. a postprocessor to filter the interferogram and create coherence, phase gradient, and line-of sight displacement products.</td>
+			<td valign="top">
+			<ul><li>ERS-1/2</li>
+				<li>Envisat</li>
+				<li>ALOS-1</li>
+				<li>TerraSAR-X</li>
+				<li>COSMOS-SkyMed</li>
+				<li>Radarsat-2</li>
+				<li>Sentinel-1</li>
+				<li>ALOS-2</li>
+			</ul></td>
+		</tr><tr><td valign="top">Delft object-oriented radar interferometric software&nbsp;<br>
+			(<a href="http://doris.tudelft.nl/" target="_blank" class="ext" data-extlink="" rel="noreferrer">DORIS<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>)<br>
+			&nbsp;</td>
+			<td valign="top">Delft Institute of Earth Observation and Space Systems of Delft University of Technology</td>
+			<td valign="top">Interferometric processing from single look complex (SLC) to complex interferogram and coherence map. Includes geocoding capability, but does not include phase unwrapping.</td>
+			<td valign="top">Single Look Complex data from ERS, ENVISAT, JERS, RADARSAT</td>
+		</tr><tr><td valign="top">Statistical-Cost, Network-Flow Algorithm for Phase Unwrapping&nbsp;<br>
+			(<a href="https://web.stanford.edu/group/radar/softwareandlinks/sw/snaphu/" target="_blank" class="ext" data-extlink="" rel="noreferrer">SNAPHU<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>)</td>
+			<td valign="top">Stanford Radar Interferometry Research Group</td>
+			<td valign="top">Software written in C that runs on most Unix/Linux platforms. Used for phase unwrapping (an interferometric process). The SNAPHU algorithm has been incorporated into other SAR processing software, including ISCE.</td>
+			<td valign="top">Input data is interferogram formatted as a raster, with single-precision (float, real*4, or complex*8) floating-point data types</td>
+		</tr><tr><td valign="top">Hybrid Pluggable Processing Pipeline&nbsp;<br>
+			(<a href="http://hyp3.asf.alaska.edu/" target="_blank" class="ext" data-extlink="" rel="noreferrer">HYP3<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>)</td>
+			<td valign="top">Alaska Satellite Facility</td>
+			<td valign="top">Online interface for InSAR processing, including steps such as phase unwrapping (using the Minimum Cost Flow algorithm). Includes access to some GAMMA and ISCE processing capablities for interferometry. Also includes Radiometric Terrain Correction (RTC) and change detection tools.</td>
+			<td valign="top">Dependent on process.</td>
+		</tr><tr><td valign="top">InSAR Scientific Computing Environment&nbsp;<br>
+			(<a href="https://github.com/isce-framework/isce2" target="_blank" class="ext" data-extlink="" rel="noreferrer">ISCE<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>)</td>
+			<td valign="top">Jet Propulsion Laboratory and Stanford University</td>
+			<td valign="top">Interferometric processing packaged as Python modules. Interferometric processing from raw or SLC to complex interferogram and coherence map. Includes geocoding, phase unwrapping, filtering, and more.</td>
+			<td valign="top">
+			<ul><li>ALOS</li>
+				<li>ALOS2</li>
+				<li>COSMO_SKYMED</li>
+				<li>ENVISAT</li>
+				<li>ERS</li>
+				<li>KOMPSAT5</li>
+				<li>RADARSAT1</li>
+				<li>RADARSAT2</li>
+				<li>RISAT1</li>
+				<li>Sentinel-1</li>
+				<li>TERRASARX</li>
+				<li>UAVSAR</li>
+			</ul></td>
+		</tr><tr><td valign="top"><a href="https://asf.alaska.edu/how-to/data-tools/data-tools/" target="_blank" class="ext" data-extlink="" rel="noreferrer">MapReady<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></td>
+			<td valign="top">Alaska Satellite Facility</td>
+			<td valign="top">A GUI used to terrain-correct, geocode, and apply polarimetric decompositions to multi-polarimetric synthetic aperture radar (PolSAR) data.</td>
+			<td valign="top">ALOS Palsar and other older datasets in ASF’s catalog (not to be used for Sentinel-1, SNAP S1TBX recommended for Sentinel-1)</td>
+		</tr><tr><td valign="top">Python Radar Tools&nbsp;<br>
+			(<a href="https://github.com/birgander2/PyRAT/blob/master/README.md" target="_blank" class="ext" data-extlink="" rel="noreferrer">PyRat<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>)</td>
+			<td valign="top">Andreas Reigber</td>
+			<td valign="top">A GUI implemented in Python for post-processing of both airborne and spaceborne SAR imagery. Includes various filters, geometrical transformations and capabilities for both interferometric and polarimetric processing.</td>
+			<td valign="top">Airborne and spaceborne SAR data</td>
+		</tr><tr><td valign="top">Polarimetric SAR data Processing and Education Toolbox<br>
+			(<a href="https://step.esa.int/main/download/polsarpro-v6-0-biomass-edition-toolbox-download/" target="_blank" class="ext" data-extlink="" rel="noreferrer">PolSARpro<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>)</td>
+			<td valign="top">European Space Agency</td>
+			<td valign="top">A GUI for high level polarimetric processing. Includes analysis capabilities for PolSAR, PolinSAR, PolTomoSAR and PolTimeSAR data, including functionalities such as elliptical polarimetric basis transformations, speckle filters, decompositions, parameter estimation, and classification/segmentation. Includes a fully polarimetric coherent SAR scattering and imaging simulator for forest and ground surfaces.</td>
+			<td valign="top">
+			<ul><li>ALOS-1 / PALSAR-1</li>
+				<li>ALOS-2 / PALSAR-2</li>
+				<li>COSMO-SKYMED</li>
+				<li>GaoFen-3</li>
+				<li>RADARSAT-2</li>
+				<li>RISAT</li>
+				<li>TerraSAR X</li>
+				<li>Tandem-X</li>
+				<li>SENTINEL-1A and -1B</li>
+			</ul>
+			Supports upcoming missions:
+
+			<ul><li>ALOS-4 / PALSAR-3</li>
+				<li>BIOMASS</li>
+				<li>SAOCOM</li>
+				<li>NISAR</li>
+				<li>NOVASAR-S</li>
+				<li>RCM / RADARSAT-3</li>
+				<li>TerraSAR-L</li>
+			</ul></td>
+		</tr></tbody></table><p>Several new sensors are also planned for launch in the next few years. These include the joint NASA-Indian Space Research Organisation SAR (NISAR) satellite, which will collect L-band SAR data, with more limited coverage of S-band. All data will be free and openly available to the public. ESA is also launching the P-band BIOMASS mission, which will have an open data policy as well. View a list of the <a href="https://www.earthdata.nasa.gov/sites/default/files/imported/Satellite_Property_Tables.pdf">upcoming SAR missions and data parameters</a>.</p>
+
+<p>All free and publicly available SAR data can be accessed in <a href="https://search.earthdata.nasa.gov/search?q=SAR" target="_blank">Earthdata Search</a>.</p>
+
+<h3>Data Processing and Analysis</h3>
+
+<p>One of the limitations of working with SAR data has been the somewhat tedious preprocessing steps that lower-level SAR data requires. Depending on the type of analysis you want to do, these preprocessing steps can include: applying the orbit file, radiometric calibration, de-bursting, multilooking, speckle filtering, and terrain correction. These steps are described in more detail in this <a href="https://www.earthdata.nasa.gov/sites/default/files/imported/pre-processing_onepager_ROUGH.pdf">SAR Pre-Processing one pager.</a></p>
+
+<p>Special software is required to process SAR data, depending on the data provider, starting level of data, and desired level of data. The table below shows a selection of freely-available software packages, what they can be used for, and where you can download them.</p>
+
+<p>More recently, data repositories like NASA's Alaska Satellite Facility Distributed Active Archive Center (<a href="https://www.asf.alaska.edu/" target="_blank" class="ext" data-extlink="" rel="noreferrer">ASF DAAC<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>) are starting to provide radiometrically terrain-corrected products for select areas, reducing the amount of time and effort the user has to put into preprocessing on their own.</p>
+
+<h3>Additional Resources</h3>
+
+<ul><li><a href="https://www.servirglobal.net/Global/Articles/Article/2674/sar-handbook-comprehensive-methodologies-for-forest-monitoring-and-biomass-estimation" target="_blank" class="ext" data-extlink="" rel="noreferrer">SERVIR SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></li>
+	<li><a href="https://nisar.jpl.nasa.gov/files/nisar/NISAR_Science_Users_Handbook.pdf%3C" target="_blank">NISAR Science Users' Handbook</a></li>
+	<li>NASA Applied Remote Sensing Training (ARSET) Program Courses:
+	<ul><li><a href="https://arset.gsfc.nasa.gov/disasters/webinars/intro-SAR" target="_blank">Introduction to Synthetic Aperture Radar</a> (available in English and Spanish)</li>
+		<li><a href="https://arset.gsfc.nasa.gov/disasters/webinars/advanced-SAR-18" target="_blank">Advanced Webinar: Radar Remote Sensing for Land, Water, and Disaster Applications</a> (available in English and Spanish)</li>
+		<li><a href="https://arset.gsfc.nasa.gov/disasters/webinars/2019-SAR-Disasters" target="_blank">Advanced Webinar: SAR for Disasters and Hydrological Applications</a></li>
+	</ul></li>
+	<li>ASF DAAC <a href="https://www.asf.alaska.edu/data-recipes/data-recipe-tutorials/" target="_blank" class="ext" data-extlink="" rel="noreferrer">SAR Data Recipes<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></li>
+	<li>ESA EO College <a href="https://eo-college.org/courses/echoes-in-space/" target="_blank" class="ext" data-extlink="" rel="noreferrer">Echoes in Space Course<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></li>
+	<li>University of Alaska Fairbanks <a href="https://radar.community.uaf.edu/" target="_blank" class="ext" data-extlink="" rel="noreferrer">Microwave Remote Sensing Course<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></li>
+	<li>Woodhouse, I. H., 2006, Introduction to Microwave Remote Sensing, Boca Raton, FL, CRC Press, Taylor &amp; Francis Group</li>
+</ul><p>Much of the information from this page is drawn from the following chapters in <a href="https://www.servirglobal.net/Global/Articles/Article/2674/sar-handbook-comprehensive-methodologies-for-forest-monitoring-and-biomass-estimation" target="_blank" class="ext" data-extlink="" rel="noreferrer">The SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a>:</p>
+
+<p><a href="https://www.earthdata.nasa.gov/learn/data-chat/data-chat-franz-meyer">Meyer, Franz. "Spaceborne Synthetic Aperture Radar – Principles, Data Access, and Basic Processing Techniques." SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation. Eds. Flores, A., Herndon, K., Thapa, R., Cherrington, E. NASA. 2019.</a><br><a href="https://doi.org/10.25966/ez4f-mg98" target="_blank" class="ext" data-extlink="" rel="noreferrer">doi:10.25966/ez4f-mg98<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></p>
+
+<p>Kellndorfer, Josef. "Using SAR Data for Mapping Deforestation and Forest Degradation." SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation. Eds. Flores, A., Herndon, K., Thapa, R., Cherrington, E. NASA. 2019. <a href="https://doi.org/10.25966/68c9-gw82" target="_blank" class="ext" data-extlink="" rel="noreferrer">doi:10.25966/68c9-gw82<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></p>
+
+<p>Saatchi, Sassan. "SAR Methods for Mapping and Monitoring Forest Biomass." SAR Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation. Eds. Flores, A., Herndon, K., Thapa, R., Cherrington, E. NASA. 2019. <a href="https://doi.org/10.25966/hbm1-ej07" target="_blank" class="ext" data-extlink="" rel="noreferrer">doi:10.25966/hbm1-ej07<svg focusable="false" class="ext" role="img" aria-label="(link is external)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40"><metadata><sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/"><slicesourcebounds y="-8160" x="-8165" width="16389" height="16384" bottomleftorigin="true"></slicesourcebounds><optimizationsettings><targetsettings targetsettingsid="0" fileformat="PNG24Format"><png24format transparency="true" filtered="false" interlaced="false" nomattecolor="false" mattecolor="#FFFFFF"></png24format></targetsettings></optimizationsettings></sfw></metadata><title>(link is external)</title><path d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z"></path><path d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z"></path></svg></a></p>
+
+<p>Article by Kelsey Herndon, Franz Meyer, Africa Flores, Emil Cherrington, and Leah Kucera in collaboration with the Earth Science Data Systems. Graphics by Leah Kucera.</p>
+</div>
+      
+  </div>
+</div>
+</div>
+  
+    </div>
+
+    <div class="col-sm-12 col-md-12 col-lg-3 sidebar">
+        
+
+<div class="sidebar-field">
+  <div class="field field--name-field-daacs field--label-above page-title">
+    <h3><div class="field__label daac-title">Data Archives</div></h3>
+          <div class="field__items">
+              <div class="btn" title="Alaska Satellite Facility DAAC (ASF DAAC) "><a href="https://www.earthdata.nasa.gov/eosdis/daacs/asf" hreflang="en">ASF DAAC</a></div>
+              </div>
+      </div>
+</div>
+
+
+<div class="sidebar-field">
+  <div class="field field--name-field-sensor field--label-above page-title">
+    <h3><div class="field__label sidebar-title">Sensors</div></h3>
+          <div class="field__items">
+              <div class="btn" title="NISAR L-Band SAR"><a href="https://www.earthdata.nasa.gov/sensors/nisar-l-band-sar" hreflang="en">NISAR L-Band SAR</a></div>
+          <div class="btn" title="RADARSAT"><a href="https://www.earthdata.nasa.gov/sensors/radarsat" hreflang="en">RADARSAT</a></div>
+              </div>
+      </div>
+</div>
+
+
+<div class="sidebar-field">
+      <div class="field field--name-field-technology field--label-above page-title">
+      <h3><div class="field__label sidebar-title">Technologies</div></h3>
+            <div class="field__items">
+                          <div title="Synthetic Aperture Radar (SAR)"><a href="https://www.earthdata.nasa.gov/technology/synthetic-aperture-radar-sar" hreflang="en">Synthetic Aperture Radar (SAR)</a></div>
+                      </div>
+          </div>
+  </div>
+
+                          <div class="views-element-container"><div class="feature-article view view-featured-ad view-id-featured_ad view-display-id-block_1 js-view-dom-id-0d97b8fa157c235e0f2a1e851c58a028cdfeb346a40af717aa823afa64e8b69c">
+    
+        
+                      
+          <div class="view-empty">
+        <div class="featured-heading mt-3">
+Featured
+</div><div class="featured">
+<div class="views-field views-field-title">
+<div class="field-content">
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a href="https://www.earthdata.nasa.gov/topics/atmosphere/air-quality">NASA provides unrestricted access to air quality data</a></p>
+</div>
+      </div>
+</div>
+</div>
+
+      </div>
+    
+                    </div>
+</div>
+
+            </div>
+    
+    
+  </div>
+
+
+    </div>
+  </div>
+          </section>
+              </main>
+                                  </div>
+        </div>
+          </div>
+  </div>
+</div>
+
+  </div>
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><iframe sandbox="" style="display: none;" src="./about_files/saved_resource.html"></iframe>
+</body>
+</html>
